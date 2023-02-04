@@ -106,7 +106,6 @@ public class Employee {
         int sum = findSalaryCostsAmount();
         return (int)sum / id;
     }
-
     public static void writeAllEmployeesNames() {
         for (int i = 0;i < id; i++){
             System.out.println(Main.employee[i * 5]
